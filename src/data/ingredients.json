@@ -6,5 +6,9 @@
   {
     "name": "bacon",
     "price": 2.99
+  },
+  {
+    "name": "meat",
+    "price": 3.99
   }
 ]

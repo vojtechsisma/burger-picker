@@ -1,0 +1,28 @@
+.meatWrapper {
+  height: 2rem;
+  position: relative;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+}
+
+.meat {
+  height: 20rem;
+  width: 20rem;
+  margin: 0 auto;
+  border-radius: 20rem;
+  background-color: #a16868;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset -1rem -1.25rem 0.625rem #ba8080;
+  top: -8.5rem;
+  position: absolute;
+  border: 0.5rem solid black;
+  overflow: hidden;
+}
+
+.slice {
+  background-color: #c38a8a;
+  position: absolute;
+}

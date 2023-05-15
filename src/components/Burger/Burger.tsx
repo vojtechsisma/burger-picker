@@ -1,6 +1,7 @@
 import { IIngredient } from "../../types/types";
 import Bacon from "../Bacon";
 import BottomBun from "../BottomBun";
+import Meat from "../Meat";
 import Tomato from "../Tomato";
 import TopBun from "../TopBun";
 import styles from "./Burger.module.css";
@@ -16,6 +17,17 @@ const getIngredient = (ingredient: IIngredient, zIndex: number) => {
     case "tomato":
       return (
         <Tomato
+          style={{ zIndex }}
+          tomatoStyle={{
+            transform: `rotate3d(2, 0, -0.06, -0.2turn) rotate(${
+              Math.random() * 180
+            }deg)`,
+          }}
+        />
+      );
+    case "meat":
+      return (
+        <Meat
           style={{ zIndex }}
           tomatoStyle={{
             transform: `rotate3d(2, 0, -0.06, -0.2turn) rotate(${
