@@ -1,0 +1,11 @@
+.topBun {
+  height: 10rem;
+  width: 25rem;
+  border-radius: 10rem 10rem 2rem 2rem;
+  background: linear-gradient(0deg, #d17e38 0%, #e89f50 35%, #f3d598 100%);
+  box-shadow: inset -1rem -1.25rem 0.625rem #e27c28;
+  position: relative;
+  z-index: 999;
+  overflow: hidden;
+  border: 0.5rem solid black;
+}

@@ -1,0 +1,30 @@
+body {
+  background: rgb(255, 237, 185);
+  background: radial-gradient(
+    circle,
+    rgba(255, 237, 185, 1) 0%,
+    rgba(255, 223, 128, 1) 100%
+  );
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2rem;
+}
+
+.container > * {
+  flex: 1;
+}
+
+@media print {
+  .container > * {
+    display: none;
+  }
+
+  .container > *:last-of-type {
+    display: block;
+  }
+}

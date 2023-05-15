@@ -1,0 +1,84 @@
+.tomatoWrapper {
+  height: 2rem;
+  position: relative;
+  z-index: 20;
+  display: flex;
+  justify-content: center;
+}
+
+.tomato {
+  height: 20rem;
+  width: 20rem;
+  margin: 0 auto;
+  border-radius: 20rem;
+  background-color: #d14f38;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset -1rem -1.25rem 0.625rem #ff6347;
+  top: -8.5rem;
+  position: absolute;
+  border: 0.5rem solid black;
+}
+
+.innerTomato {
+  height: 17rem;
+  width: 17rem;
+  border-radius: 17rem;
+  background-color: #ff6347;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slicesContainer {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 15rem;
+  background-color: #ff6347;
+  position: relative;
+  overflow: hidden;
+}
+
+.slice {
+  width: 7.5rem;
+  height: 7.5rem;
+  clip-path: polygon(100% 100%, 0% 100%, 50% 0%);
+  margin: 0 auto;
+  position: absolute;
+  background-color: #c03c25;
+  inset: (0% 45% 0% 45% round 10px);
+}
+
+.slice1 {
+  composes: slice;
+  top: 0;
+  left: 50%;
+  transform: translateX(50%);
+  rotate: 180deg;
+}
+
+.slice2 {
+  composes: slice;
+  left: 0;
+  top: 50%;
+  transform: translateX(-50%);
+  rotate: 90deg;
+}
+
+.slice3 {
+  composes: slice;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  rotate: 0deg;
+}
+
+.slice4 {
+  composes: slice;
+  right: 0;
+  top: 50%;
+  transform: translateX(50%);
+  rotate: 270deg;
+}

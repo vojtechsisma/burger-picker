@@ -1,0 +1,36 @@
+.baconWrapper {
+  height: 1rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  z-index: 10;
+}
+
+.bacon {
+  height: 5rem;
+  width: 20rem;
+  margin: 0 auto;
+  background: linear-gradient(#843e05, #9e5417);
+  box-shadow: inset -1rem -1.25rem 0.625rem #b55100;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: flex-start;
+  transform: rotate3d(2, 0, 0.05, -0.2turn);
+  position: absolute;
+  top: -2.5rem;
+  border: 0.5rem solid black;
+}
+
+.baconStrip {
+  height: 1.2rem;
+  width: 15rem;
+  margin: 0 0 0 2em;
+  background: #ed7f6e;
+  border-radius: 1rem;
+}
+
+.baconStrip:first-of-type {
+  width: 16rem;
+}
