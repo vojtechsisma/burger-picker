@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/burger-picker/static/css/main.ebd0c7bd.css",
+    "main.css": "/burger-picker/static/css/main.a6fb72c8.css",
     "main.js": "/burger-picker/static/js/main.54394792.js",
     "static/js/787.e07ca218.chunk.js": "/burger-picker/static/js/787.e07ca218.chunk.js",
     "index.html": "/burger-picker/index.html",
-    "main.ebd0c7bd.css.map": "/burger-picker/static/css/main.ebd0c7bd.css.map",
+    "main.a6fb72c8.css.map": "/burger-picker/static/css/main.a6fb72c8.css.map",
     "main.54394792.js.map": "/burger-picker/static/js/main.54394792.js.map",
     "787.e07ca218.chunk.js.map": "/burger-picker/static/js/787.e07ca218.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebd0c7bd.css",
+    "static/css/main.a6fb72c8.css",
     "static/js/main.54394792.js"
   ]
 }
